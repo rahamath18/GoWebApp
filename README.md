@@ -17,11 +17,8 @@ $ go run .\Http_Server.go
 
 ### Access the following URLs - CRUD
 
-http: //localhost:8080/view/GoLang
-
-http: //localhost:8080/save/GoLang
-
-http: //localhost:8080/edit/GoLang
-
-http: //localhost:8080/delete/GoLang
+[http: //localhost:8080/view/GoLang](http: //localhost:8080/view/GoLang)
+[http: //localhost:8080/view/GoLang](http: //localhost:8080/save/GoLang)
+[http: //localhost:8080/view/GoLang](http: //localhost:8080/edit/GoLang)
+[http: //localhost:8080/view/GoLang](http: //localhost:8080/delete/GoLang)
 
