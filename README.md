@@ -9,7 +9,7 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 
 	1. go1.17.windows-amd64.msi - Download - https://golang.org/dl/
 	2. MS Visual Studio Code
-    3. Chrome Browser
+    	3. Chrome Browser
 
 ### Run GO HTTP Server
 
@@ -18,6 +18,6 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 ### Access the following URLs - CRUD
 
         http: //localhost:8080/view/GoLang
-		http: //localhost:8080/save/GoLang
-		http: //localhost:8080/edit/GoLang
-		http: //localhost:8080/delete/GoLang
+	http: //localhost:8080/save/GoLang
+	http: //localhost:8080/edit/GoLang
+	http: //localhost:8080/delete/GoLang
