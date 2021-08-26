@@ -1,5 +1,12 @@
 // Go - HTTP Server
 
+/*
+	http: //localhost:8080/view/ANewPage
+	http: //localhost:8080/save/ANewPage
+	http: //localhost:8080/edit/ANewPage
+	http: //localhost:8080/delete/ANewPage
+*/
+
 package main
 
 import (
@@ -106,10 +113,4 @@ func main() {
 	http.HandleFunc("/delete/", makeHandler(deleteHandler))
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
-	/*
-		http: //localhost:8080/view/ANewPage
-		http: //localhost:8080/save/ANewPage
-		http: //localhost:8080/edit/ANewPage
-		http: //localhost:8080/delete/ANewPage
-	*/
 }
